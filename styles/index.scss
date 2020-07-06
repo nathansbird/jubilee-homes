@@ -1,0 +1,65 @@
+body{
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+//Home Styles
+#index-main{
+  display: flex;
+  flex-direction: column;
+  height: 500vh;
+  width: 100vw;
+  background: #000000;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  overflow-y: auto;
+
+  #one{
+    background: url(../public/images/1.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+  }
+
+  #two{
+    background: url(../public/images/2.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+  }
+
+  #three{
+    background: url(../public/images/3.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+  }
+  
+  #four{
+    background: url(../public/images/4.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+  }
+  
+  #five{
+    background: url(../public/images/5.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+  }
+}
