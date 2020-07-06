@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Head from 'next/head';
+import one from '../public/images/1.png';
+import two from '../public/images/2.png';
+import three from '../public/images/3.png';
+import four from '../public/images/4.png';
+import five from '../public/images/5.png';
 
 const Home = () => {
   return (
@@ -16,14 +21,20 @@ const Home = () => {
       </Head>
 
       <main id="index-main">
-        <div id="one"></div>        
-        <div id="two"></div>        
-        <div id="three"></div>        
-        <div id="four"></div>        
-        <div id="five"></div>        
+        <img src={one}/>
+        <img src={two}/>
+        <img src={three}/>
+        <img src={four}/>
+        <img src={five}/>
       </main>
     </div>
   )
 }
 
 export default Home;
+
+/*
+<img id="two" src={two}/>       
+        <img id="three" src={three}/>      
+        <img id="four" src={four}/>      
+        <img id="five" src={five}/>    */
